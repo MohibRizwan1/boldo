@@ -1,0 +1,288 @@
+/* ==================================
+                GENERAL CSS
+   ================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ==================================
+                PAGE 1
+   ================================== */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.first-page {
+  background-color: rgba(101, 228, 163, 1);
+  width: 1400px;
+  height: 473px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 60px 0 100px;
+  font-family: "Open sans";
+}
+
+header .logo {
+  display: flex;
+  width: 162px;
+  height: 41px;  
+  margin-right: 8px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(10, 38, 64);
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+header .button-log-in {
+  padding-inline: 40px;
+  padding-block: 8px;
+  border-radius: 24px;
+  border: 2px solid rgb(10, 38, 64);
+  color: rgb(10, 38, 64);
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.15s ease;
+}
+
+header .button-log-in:hover {
+  background-color: rgb(10, 38, 64);
+  color: white;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}   
+
+.about {
+  margin-top: 93.5px;
+  margin-bottom: 0;
+  color: rgba(10, 38, 64, 1);
+  font-family: "Open sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.title {
+  width: 600px;
+  height: 144px;
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.title p {
+  margin-top: 12px;
+}
+
+.subtitle {
+  margin-top: -140px;
+  margin-right: 145px; 
+  align-self: flex-end;
+  width: 455px;
+  height: 64px;
+  top: 244px;
+  left: 800px;
+  font-family: "Open sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* ==================================
+                PAGE 2
+   ================================== */
+  
+.numbers-section {
+  text-align: center;
+  padding: 94px 200px 120px 200px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-family: "Open sans";
+  color: rgba(10, 38, 64, 1);
+  margin-bottom: 12px;
+}
+
+.section-heading {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "Manrope";
+  color: rgba(10, 38, 64, 1);
+  margin: 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 141.5px;
+}
+
+.stat h3 {
+  font-size: 96px;
+  font-weight: 400;
+  font-family: "Manrope";
+  color: rgba(10, 38, 64, 1);
+  margin-top: 84px;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  width: 187px;
+  font-size: 24px;
+  font-family: "Open sans";
+  color: rgba(10, 38, 64, 1);
+  text-align: left;
+}
+
+/* ==================================
+                PAGE 3
+   ================================== */
+   
+.story-section {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(10, 38, 64, 1);
+  padding: 120px 300px;
+  color: white; 
+}
+
+.story-title {
+  font-size: 20px;
+  font-family: "Open sans";
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+
+.story-heading {
+  font-size: 48px;
+  width: 842px;
+  font-family: "Manrope";
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.story-text {
+  font-size: 20px;
+  width: 799px;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+}
+
+/*=================================
+                PAGE 4
+  ==================================*/  
+
+.team-header {
+  margin: 124px 300px 56px 300px;
+}
+
+.team-header p {
+  color: rgba(119, 119, 119, 1);
+  font-family: "Open sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.work {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;  
+  margin: 12px 0 22.5px 0;
+}
+
+.investor {
+  width: 799px;
+  height: 110px;
+}  
+
+.team-grid1 {
+  display: flex;
+  margin-left: 230px;
+  margin-bottom: 110px;
+  gap: 75px;
+}
+
+.team-grid1 h4 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  margin-bottom: 12px;
+}
+
+.team-grid1 p {
+  font-family: "Open sans";
+  color: rgba(119, 119, 119, 1);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.team-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 46px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.team-member h4, .team-member p {
+  margin: 0;
+}
+
+.team-member h4 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.team-member p {
+  font-family: "Open sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;  
+  color: rgba(119, 119, 119, 1);
+}
