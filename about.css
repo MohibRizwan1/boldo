@@ -295,4 +295,9 @@ header .button-log-in:hover {
   background-color: rgba(10, 38, 64, 1);
   color: white;
   text-align: center;
+  margin-top: 124px;
 } 
+
+.blog {
+  padding: 120px 279px 64px 279px;
+}
