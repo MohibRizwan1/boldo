@@ -32,7 +32,7 @@ header {
 header .logo {
   display: flex;
   width: 162px;
-  height: 41px;  
+  height: 41px;
   margin-right: 8px;
 }
 
@@ -80,7 +80,7 @@ header .button-log-in:hover {
   display: flex;
   flex-direction: column;
   margin-left: 100px;
-}   
+}
 
 .about {
   margin-top: 93.5px;
@@ -105,7 +105,7 @@ header .button-log-in:hover {
 
 .subtitle {
   margin-top: -140px;
-  margin-right: 145px; 
+  margin-right: 145px;
   align-self: flex-end;
   width: 455px;
   height: 64px;
@@ -120,7 +120,7 @@ header .button-log-in:hover {
 /* ==================================
                 PAGE 2
    ================================== */
-  
+
 .numbers-section {
   text-align: center;
   padding: 94px 200px 120px 200px;
@@ -167,13 +167,13 @@ header .button-log-in:hover {
 /* ==================================
                 PAGE 3
    ================================== */
-   
+
 .story-section {
   display: flex;
   justify-content: center;
   background-color: rgba(10, 38, 64, 1);
   padding: 120px 300px;
-  color: white; 
+  color: white;
 }
 
 .story-title {
@@ -204,7 +204,7 @@ header .button-log-in:hover {
 
 /*=================================
                 PAGE 4
-  ==================================*/  
+  ==================================*/
 
 .team-header {
   margin: 124px 300px 56px 300px;
@@ -223,14 +223,14 @@ header .button-log-in:hover {
   font-family: "Manrope";
   font-weight: 400;
   font-size: 48px;
-  line-height: 72px;  
+  line-height: 72px;
   margin: 12px 0 22.5px 0;
 }
 
 .investor {
   width: 799px;
   height: 110px;
-}  
+}
 
 .team-grid1 {
   display: flex;
@@ -268,7 +268,8 @@ header .button-log-in:hover {
   gap: 24px;
 }
 
-.team-member h4, .team-member p {
+.team-member h4,
+.team-member p {
   margin: 0;
 }
 
@@ -283,19 +284,19 @@ header .button-log-in:hover {
   font-family: "Open sans";
   font-weight: 400;
   font-size: 20px;
-  line-height: 32px;  
+  line-height: 32px;
   color: rgba(119, 119, 119, 1);
 }
 
 /*=================================
                 PAGE 5
-  ==================================*/ 
+  ==================================*/
 
 .blog-container {
   background-color: rgba(10, 38, 64, 1);
   color: white;
   margin-top: 124px;
-} 
+}
 
 .blog {
   padding: 120px 279px 64px 279px;
@@ -357,3 +358,7 @@ p {
   text-align: left;
   line-height: 32px;
 }
+
+/*=================================
+                PAGE 6
+  ==================================*/
