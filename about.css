@@ -301,3 +301,21 @@ header .button-log-in:hover {
 .blog {
   padding: 120px 279px 64px 279px;
 }
+
+.small-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.large-text {
+  width: 842px;
+  margin: 0;
+  margin-bottom: 64px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
