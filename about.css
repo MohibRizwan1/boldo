@@ -362,3 +362,86 @@ p {
 /*=================================
                 PAGE 6
   ==================================*/
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  padding: 150px 179px 134px 0;
+  background-color: white;
+  font-family: Arial;
+}
+
+.footer-left {
+  max-width: 250px;
+  margin-left: 100px;
+}
+
+.logo {
+  width: 156px;
+  height: 41px;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: rgba(119, 119, 119, 1);
+  width: 300px;
+  height: 84px;
+  font-family: "Open sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.copyright {
+  color: rgba(119, 119, 119, 1);
+  font-family: "Open sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 64px;
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 96px;
+  margin-left: 350px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.column a {
+  text-decoration: none;
+  color: rgba(119, 119, 119, 1);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.column a:hover {
+  color: rgb(0, 123, 255);
+}
+
+.hiring {
+  width: 72px;
+  height: 30px;
+  padding: 7px 14px;
+  margin-left: 1px;
+  border-radius: 120px;
+  background-color: rgba(101, 228, 163, 1);
+  color: black;
+  font-size: 12px;
+  margin-left: 5px;
+}
