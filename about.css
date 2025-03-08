@@ -319,3 +319,8 @@ header .button-log-in:hover {
   font-size: 48px;
   line-height: 72px;
 }
+
+hr {
+  width: 85%;
+  margin-bottom: 84px;
+}
