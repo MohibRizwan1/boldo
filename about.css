@@ -324,3 +324,36 @@ hr {
   width: 85%;
   margin-bottom: 84px;
 }
+
+.features-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 173px;
+  margin-left: 150px;
+}
+
+h2 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.highlight {
+  color: rgba(101, 228, 163, 1);
+}
+
+p {
+  color: rgba(241, 241, 241, 1);
+  width: 509px;
+  height: 102px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  text-align: left;
+  line-height: 32px;
+}
