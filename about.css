@@ -17,7 +17,6 @@ body {
 
 .first-page {
   background-color: rgba(101, 228, 163, 1);
-  width: 1400px;
   height: 473px;
 }
 
@@ -316,7 +315,7 @@ header .button-log-in:hover {
 }
 
 .large-text {
-  width: 842px;
+
   margin: 0;
   margin-bottom: 64px;
   font-family: "Manrope";
