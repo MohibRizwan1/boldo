@@ -333,22 +333,32 @@ hr {
 .features-section {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 124px;
 }
 
 .feature {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 173px;
-  margin-left: 150px;
 }
 
-h2 {
+.feature h2 {
   font-family: "Manrope";
   font-weight: 400;
   font-size: 48px;
+  line-height: 72px;
 }
 
 .highlight {
   color: rgba(101, 228, 163, 1);
+}
+
+.feature p {
+  width: 509px;
+  height: 102px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
