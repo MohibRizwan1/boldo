@@ -69,3 +69,27 @@ header .button-log-in:hover {
   background-color: rgb(10, 38, 64);
   color: white;
 }
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 76px;
+}
+
+.blog {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.para p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  margin-top: 12px;
+  margin-bottom: 67.5px;
+}
