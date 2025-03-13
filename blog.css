@@ -12,6 +12,7 @@
 
 body {
   margin: 0;
+  padding-bottom: 1000px;
   overflow-x: hidden;
 }
 
@@ -153,4 +154,28 @@ hr {
   border: 1px rgb(10, 38, 64) solid ;
   margin-top: 72px;
   margin-bottom: 84px;
+}
+
+/* ==================================
+                  PAGE 2
+   =================================== */
+
+.headline {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  margin-left: 202px;
+}
+
+.blog-container {
+  display: flex;
+}   
+
+.profile-info {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 300px;
 }
