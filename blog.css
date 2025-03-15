@@ -185,6 +185,16 @@ hr {
   justify-self: center;
 }
 
+.latest-news-container2 {
+  display: flex;
+  gap: 50px;
+  width: 998px;
+  height: 424px;
+  justify-self: center;
+  margin-top: 100px;
+  margin-bottom: 96px;
+}
+
 .profile-info {
   font-family: "Open Sans";
 }
