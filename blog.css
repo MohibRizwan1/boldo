@@ -174,23 +174,19 @@ hr {
   font-weight: 400;
   font-size: 48px;
   line-height: 72px;
-  margin-left: 180px;
+  margin-left: 202px;
 }
 
-.latest-news-container {
-  display: flex;
-  gap: 50px;
-  width: 998px;
-  height: 424px;
-  justify-self: center;
-}
-
+.latest-news-container, 
 .latest-news-container2 {
   display: flex;
   gap: 50px;
   width: 998px;
   height: 424px;
-  justify-self: center;
+  margin-left: 201px;
+}
+
+.latest-news-container2 {
   margin-top: 100px;
   margin-bottom: 96px;
 }
