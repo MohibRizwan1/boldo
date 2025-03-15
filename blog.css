@@ -112,6 +112,15 @@ section p {
   margin-inline: 100px;
 }
 
+hr {
+  width: 89%;
+  border: 1px rgb(10, 38, 64) solid;
+  margin-top: 72px;
+  margin-bottom: 84px;
+}
+
+
+
 .date span {
   font-family: "Open Sans";
   color: rgb(10, 38, 64);
@@ -127,7 +136,7 @@ section p {
   font-size: 16px;
   line-height: 28px;
 }
-
+  
 .title p {
   margin-top: 12px;
   margin-bottom: 20px;
@@ -159,25 +168,65 @@ hr {
 /* ==================================
                   PAGE 2
    =================================== */
-
+   
 .headline {
   font-family: "Manrope";
   font-weight: 400;
   font-size: 48px;
   line-height: 72px;
-  margin-left: 202px;
+  margin-left: 180px;
 }
 
-.blog-container {
+.latest-news-container {
   display: flex;
+  gap: 50px;
+  width: 998px;
+  height: 424px;
+  justify-self: center;
 }
 
 .profile-info {
   font-family: "Open Sans";
+}
+
+.card {
+  width: 300px;
+  height: 424px;
+}
+
+.latest-news-date {
+  color: rgba(119, 119, 119, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.latest-news-date span {
+  padding-right: 12px;
+  color: rgba(10, 38, 64, 1);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.subtitle {
+  width: 300px;
+  height: 99px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 32px;
-  width: 300px;
+  line-height: 32px;    
+}
+
+.latest-news-profile {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.latest-news-profile p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 /* ==================================
