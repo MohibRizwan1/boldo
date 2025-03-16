@@ -262,6 +262,7 @@ header .button-log-in:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 46px;
+  justify-self: center;
 }
 
 .team-member {
