@@ -181,3 +181,55 @@ header .button-log-in:hover {
   line-height: 32px;
   width: 790px;
 }
+
+/*==================================
+                PAGE 3
+  ================================== */
+
+.numbers-section {
+  text-align: center;
+  background-color: rgba(10, 38, 64, 1);
+  color: white;
+  margin: 0 auto;
+  padding: 96px 0 84px 0;
+}
+
+.section-title {
+  font-size: 20px;
+  font-family: "Open sans";
+  margin-bottom: 12px;
+  
+}
+
+.section-heading {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "Manrope";
+  margin: 0;
+  justify-self: center;
+  width: 842px;
+  height: 144px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 141.5px;
+}
+
+.stat h3 {
+  font-size: 96px;
+  font-weight: 400;
+  font-family: "Manrope";
+  color: rgba(79, 233, 164, 1);
+  margin-top: 84px;
+  margin-bottom: 32px;
+}
+
+.stat p {
+  text-align: left;
+  margin: 0;
+  font-size: 24px;
+  font-family: "Open sans";
+  color: rgba(241, 241, 241, 1);
+}

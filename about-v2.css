@@ -141,6 +141,9 @@ header .button-log-in:hover {
   font-family: "Manrope";
   color: rgba(10, 38, 64, 1);
   margin: 0;
+  justify-self: center;
+  width: 842px;
+  height: 144px;
 }
 
 .stats {
