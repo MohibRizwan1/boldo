@@ -198,7 +198,7 @@ header .button-log-in:hover {
   font-size: 20px;
   font-family: "Open sans";
   margin-bottom: 12px;
-  
+
 }
 
 .section-heading {
@@ -232,4 +232,71 @@ header .button-log-in:hover {
   font-size: 24px;
   font-family: "Open sans";
   color: rgba(241, 241, 241, 1);
+}
+
+/*==================================
+                PAGE 4
+  ================================== */
+
+.team-member-container {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
+  margin: 96px 0 52px 0;
+}
+
+.team-member-heading {
+  align-self: center;
+}
+
+.team-member-container * {
+  margin: 0;
+}
+
+.team-member-container h2 {
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.team-member-container h1 {
+  color: black;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 22.5px;
+}
+
+.team-member-container p {
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 790px;
+  margin-bottom: 52px;
+}
+
+.team-members {
+  display: flex;
+  gap: 51px;
+}
+
+.team-member-info h3 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.team-member-info div {
+  color: rgba(119, 119, 119, 1);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;  
 }
