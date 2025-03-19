@@ -236,7 +236,7 @@ header .button-log-in:hover {
 
 .team-grid1 {
   display: flex;
-  margin-left: 230px;
+  margin-left: 250px;
   margin-bottom: 110px;
   gap: 75px;
 }
@@ -289,6 +289,16 @@ header .button-log-in:hover {
   font-size: 20px;
   line-height: 32px;
   color: rgba(119, 119, 119, 1);
+}
+
+.name {
+  width: 200px;
+  height: 92px;  
+  margin-right: 157px;
+}
+
+#team-member {
+  margin-left: 250px;
 }
 
 /*=================================
