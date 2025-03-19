@@ -97,12 +97,12 @@ header .button-log-in:hover {
 .title {
   font-family: "Manrope";
   width: 842px;
-  height: 168px;  
+  height: 168px;
   font-weight: 400;
   font-size: 64px;
   line-height: 84px;
   text-align: center;
-  vertical-align: middle;  
+  vertical-align: middle;
 }
 
 .title p,
@@ -112,7 +112,7 @@ header .button-log-in:hover {
 
 .subtitle {
   width: 745px;
-  height: 64px;  
+  height: 64px;
   font-family: "Open sans";
   font-weight: 400;
   font-size: 16px;
@@ -137,4 +137,47 @@ header .button-log-in:hover {
   display: flex;
   gap: 40px;
   flex-direction: column;
+}
+
+/*==================================
+          PAGE 2 OF SECTION 2
+  ================================== */
+
+.story-container {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  font-family: "Open sans";
+  margin: 120px 0 96px 0;
+}
+
+.story-container * {
+  margin: 0;
+}
+
+.story-container h2 {
+  color: rgba(119, 119, 119, 1);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  text-align: start;
+}
+
+.story-container h1 {
+  font-family: "Manrope";
+  color: black;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  width: 842px;
+  margin-bottom: 30px;
+}
+
+.story-container p {
+  color: rgba(119, 119, 119, 1);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 790px;
 }
