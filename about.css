@@ -300,3 +300,79 @@ header .button-log-in:hover {
   font-size: 20px;
   line-height: 32px;  
 }
+
+/*==================================
+                PAGE 5
+  ================================== */
+
+.value-container {
+  background-color: rgba(10, 38, 64, 1);  
+}
+
+.hero-title  {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 800px;
+  margin: 0;
+  color: white;
+}  
+
+.values {
+  margin-top: 122.5px;
+  margin-bottom: 12px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;  
+}
+
+.hero-title span {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px; 
+}
+
+.paragraph {
+  margin-top: 20px;
+  margin-bottom: 72px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.info-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: 72px; 
+  padding-bottom: 120px;
+}
+
+.info-card {
+  color: white;
+  display: flex;
+  align-items: center; 
+  gap: 50px;
+  margin: 0;
+}
+
+.info-card h2 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.info-card p {
+  margin-top: 16px;
+  width: 602px;
+  height: 71px;  
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;  
+}
