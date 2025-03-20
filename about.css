@@ -7,7 +7,7 @@
 
 
 /*==================================
-                 PAGE 1
+                 SECTION 1
   ================================== */
 
 body {
@@ -122,7 +122,7 @@ header .button-log-in:hover {
 }
 
 /*==================================
-                 PAGE 2
+                 SECTION 2
   ================================== */
 
 .image-container {
@@ -140,7 +140,7 @@ header .button-log-in:hover {
 }
 
 /*==================================
-          PAGE 2 OF SECTION 2
+          SECTION 2 OF 2
   ================================== */
 
 .story-container {
@@ -183,7 +183,7 @@ header .button-log-in:hover {
 }
 
 /*==================================
-                PAGE 3
+                SECTION 3
   ================================== */
 
 .numbers-section {
@@ -235,7 +235,7 @@ header .button-log-in:hover {
 }
 
 /*==================================
-                PAGE 4
+                SECTION 4
   ================================== */
 
 .team-member-container {
@@ -298,25 +298,25 @@ header .button-log-in:hover {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 20px;
-  line-height: 32px;  
+  line-height: 32px;
 }
 
 /*==================================
-                PAGE 5
+                SECTION 5
   ================================== */
 
 .value-container {
-  background-color: rgba(10, 38, 64, 1);  
+  background-color: rgba(10, 38, 64, 1);
 }
 
-.hero-title  {
+.hero-title {
   display: flex;
   flex-direction: column;
   justify-self: center;
   width: 800px;
   margin: 0;
   color: white;
-}  
+}
 
 .values {
   margin-top: 122.5px;
@@ -324,14 +324,14 @@ header .button-log-in:hover {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 20px;
-  line-height: 32px;  
+  line-height: 32px;
 }
 
 .hero-title span {
   font-family: "Manrope";
   font-weight: 400;
   font-size: 48px;
-  line-height: 72px; 
+  line-height: 72px;
 }
 
 .paragraph {
@@ -347,14 +347,14 @@ header .button-log-in:hover {
   display: flex;
   flex-direction: column;
   justify-self: center;
-  gap: 72px; 
+  gap: 72px;
   padding-bottom: 120px;
 }
 
 .info-card {
   color: white;
   display: flex;
-  align-items: center; 
+  align-items: center;
   gap: 50px;
   margin: 0;
 }
@@ -370,9 +370,170 @@ header .button-log-in:hover {
 .info-card p {
   margin-top: 16px;
   width: 602px;
-  height: 71px;  
+  height: 71px;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 20px;
-  line-height: 32px;  
+  line-height: 32px;
+}
+
+/*=================================
+                SECTION 6
+  ==================================*/
+
+.enterprise-container {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  position: relative;
+  background-color: rgb(10, 38, 64);
+  border-radius: 12px;
+  margin-top: 124px;
+  width: 1200px;
+  height: 350px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.gray-circle {
+  position: absolute;
+  width: 1293px;
+  height: 1293px;
+  top: -1054px;
+  left: 466px;
+  background-color: rgba(28, 61, 91, 1);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.enterprise-content {
+  color: white;
+  width: 716px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  font-family: Arial;
+  gap: 10px;
+  margin-top: 48px;
+  margin-bottom: 72px;
+}
+
+.email input {
+  width: 340px;
+  height: 50px;
+  margin-left: 60px;
+  border-radius: 240px;
+  border: none;
+}
+
+.email input::placeholder {
+  color: black;
+  font-family: "Open sans";
+  padding-left: 32px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.email button {
+  background-color: rgba(101, 228, 163, 1);
+  font-family: "Open sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 56px;
+  margin-left: 24px;
+  color: black;
+  border: none;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  padding: 150px 179px 134px 0;
+  background-color: white;
+  font-family: Arial;
+}
+
+.footer-left {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 156px;
+  height: 41px;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: rgba(119, 119, 119, 1);
+  width: 300px;
+  height: 84px;
+  font-family: "Open sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.copyright {
+  color: rgba(119, 119, 119, 1);
+  font-family: "Open sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 64px;
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 96px;
+  margin-left: 350px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.column a {
+  text-decoration: none;
+  color: rgba(119, 119, 119, 1);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.column a:hover {
+  color: rgb(0, 123, 255);
+}
+
+.hiring {
+  width: 72px;
+  height: 30px;
+  padding: 7px 14px;
+  margin-left: 1px;
+  border-radius: 120px;
+  background-color: rgba(101, 228, 163, 1);
+  color: black;
+  font-size: 12px;
+  margin-left: 5px;
 }
