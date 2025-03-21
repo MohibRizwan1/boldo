@@ -5,26 +5,27 @@
 
 body {
   margin: 0;
-  background-color: white;
   font-family: "Open sans";
   overflow-x: hidden;
-  z-index: 1;
   position: relative;
+  z-index: 0;
 }
 
 /* Page 1 */
 
 .first-page {
   background-color: rgb(10, 38, 64);
+  position: relative;
+  z-index: 1;
 }
 
 .header-circle {
   position: absolute;
-  background-color: rgba(241, 241, 241, 1);
+  background-color: rgba(28, 61, 91, 1);
   width: 1293px;
   height: 1293px;
   top: -789px;
-  left: 777px;
+  left: 777px;  
   border-radius: 50%;
   z-index: -1;
 }
@@ -33,20 +34,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  margin: 56px 0 56px 0;
+  padding: 56px 15px 0 0 ;
 }
 
 header .logo {
   display: flex;
-  font-weight: bold;
-  height: 24px;
-}
-
-header .logo img {
-  height: 30px;
-  margin-right: 8px;
-  margin-left: 85px;
+  padding-left: 100px;
+  align-items: center;
 }
 
 header nav {
@@ -66,7 +60,8 @@ header nav ul {
 header nav li {
   cursor: pointer;
   text-decoration: none;
-  color: rgb(10, 38, 64);
+  cursor: pointer;
+  color: white;
   font-weight: bold;
   margin-right: 40px;
 }
@@ -74,17 +69,17 @@ header nav li {
 .stats-container {
   display: flex;
   position: absolute;
-  top: 100px;
-  right: 20px;
+  top: 162px;
+  right: 50px;
 }
-
 
 header .button-log-in {
   padding-inline: 40px;
   padding-block: 8px;
   border-radius: 24px;
-  border: 2px solid rgb(10, 38, 64);
-  color: rgb(10, 38, 64);
+  border: 2px solid white;
+  background-color: white;
+  color: rgba(10, 38, 64, 1);
   font-weight: bold;
   cursor: pointer;
   text-align: center;
@@ -98,38 +93,37 @@ header .button-log-in:hover {
 }
 
 .title {
-  margin-top: 80px;
+  margin-top: 120px;
   margin-bottom: 0;
   margin-left: 100px;
-  font-size: 48px;
+  font-family: "Manrope";
   font-weight: 400;
+  font-size: 48px;
   line-height: 72px;
-  text-align: left;
-  width: 601px;
-  height: 140px;
-  color: rgb(10, 38, 64);
+  width: 567px;
+  color: white;
 }
 
 .subtitle {
   margin-top: 16px;
   margin-left: 100px;
-  color: rgb(119, 119, 119);
-  width: 601px;
-  font-size: 16px;
+  color: rgba(241, 241, 241, 1);
+  width: 567px;
+  font-family: "Open Sans";
   font-weight: 400;
-  line-height: 28px;
-  text-align: left;
+  font-size: 16px;
+  line-height: 28px;  
 }
 
 .button-template {
-  margin-top: 49px;
+  margin-top: 40px;
   margin-left: 100px;
   padding-inline: 58px;
   padding-block: 13px;
   border-radius: 56px;
-  border: 2px solid rgb(10, 38, 64);
-  background-color: rgb(10, 38, 64);
-  color: white;
+  border: none;
+  background-color: rgba(101, 228, 163, 1);
+  color: rgba(10, 38, 64, 1);
   font-weight: bold;
   cursor: pointer;
   text-align: center;
@@ -149,9 +143,9 @@ header .button-log-in:hover {
   padding-inline: 58px;
   padding-block: 13px;
   border-radius: 56px;
-  border: 2px solid rgb(10, 38, 64);
-  background-color: white;
-  color: rgb(10, 38, 64);
+  border: 2px solid white;
+  background-color: rgb(10, 38, 64);
+  color: white;
   font-weight: bold;
   cursor: pointer;
   text-align: center;
@@ -160,8 +154,8 @@ header .button-log-in:hover {
 }
 
 .button-explore:hover {
-  background-color: rgb(10, 38, 64);
-  color: white;
+  background-color: white;
+  color: rgb(10, 38, 64);
   font-weight: bold;
 }
 
@@ -169,12 +163,11 @@ header .button-log-in:hover {
   display: flex;
   justify-content: space-evenly;
   margin-top: 150px;
-  margin-left: 75px;
+  margin-left: 0;
+  padding-bottom: 87.18px;
 }
 
 .logo-img {
-  width: 145px;
-  height: 42px;
   justify-content: center;
   align-items: center;
 }
@@ -186,14 +179,13 @@ header .button-log-in:hover {
   width: 1400px;
   height: 801px;
   justify-content: center;
-  margin-top: 159px;
   padding-top: 82px;
   padding-bottom: 96px;
-  background-color: rgb(10, 38, 64);
-  color: white;
+  color: gray;
 }
 
 .para1 {
+  font-family: "Manrope";
   font-weight: 400;
   padding-top: 12px;
   font-size: 48px;
@@ -202,6 +194,7 @@ header .button-log-in:hover {
   margin-top: 12px;
   margin-left: 284px;
   margin-bottom: 0;
+  color: black;
 }
 
 .container {
@@ -223,33 +216,32 @@ header .button-log-in:hover {
   align-items: center;
   gap: 12px;
   font-weight: bold;
-  color: white;
+  color: rgb(10, 38, 64);
   position: relative;
   text-decoration: none;
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgba(10, 38, 64, 1);
 }
 
-.card-link::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: white;
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-}
-
-.arrow img {
-  width: 24px;
+.arrow {
   vertical-align: middle;
 }
 
 .card-title {
+  color: black;
   margin-top: 24px;
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
   text-align: left;
+}
+
+.card-subtitle {
+  margin: 0;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;    
 }
 
 .card-image {
@@ -767,9 +759,7 @@ header .button-log-in:hover {
   margin-left: 100px;
 }
 
-.logo {
-  width: 156px;
-  height: 41px;
+.footer-logo {
   margin-bottom: 15px;
 }
 
