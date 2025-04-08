@@ -840,3 +840,39 @@ header .button-log-in:hover {
   font-size: 12px;
   margin-left: 5px;
 }
+
+/* Mobile (up to 480px or 576px) */
+@media (max-width: 480px) {
+  /* Styles for small mobile devices */
+}
+
+/* Larger Mobile (portrait/landscape) */
+@media (max-width: 576px) {
+  /* Styles for larger phones */
+}
+
+/* Tablet (portrait) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Styles for tablets in portrait mode */
+  body {
+    background-color: blue;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Styles for tablets in landscape mode */
+  body {
+    background-color: red;
+  }
+}
+
+/* Laptop */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Styles for laptops */
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  /* Styles for desktops and large screens */
+}
