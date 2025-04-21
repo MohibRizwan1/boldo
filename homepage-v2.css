@@ -41,7 +41,6 @@ header .logo {
 header .logo img {
   height: 30px;
   margin-right: 8px;
-  margin-left: 85px;
 }
 
 header nav {
@@ -839,4 +838,63 @@ header .button-log-in:hover {
   color: black;
   font-size: 12px;
   margin-left: 5px;
+}
+
+/* Mobile (up to 480px or 576px) */
+@media (max-width: 480px) {
+  /* Styles for small mobile devices */
+  .logo {
+    margin-left: 10px;
+  }
+
+  header ul li {
+    margin-right: 20px;
+  }
+
+  header {
+    gap: 0;
+  }
+
+  #one, #two, #three {
+    display: none;
+  }
+
+  .button-log-in {
+    padding-inline: 20px;
+    padding-block: 4px;
+  }
+
+  .header-circle {
+    top: -1000px;
+    left: 10px;
+    width: 900px;
+  }
+}
+
+/* Larger Mobile (portrait/landscape) */
+@media (max-width: 576px) {
+  /* Styles for larger phones */
+}
+
+/* Tablet (portrait) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Styles for tablets in portrait mode */
+}
+
+/* Tablet (landscape) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Laptop */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Styles for laptops */
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  /* Styles for desktops and large screens */
+  .logo {
+    margin-left: 80px;
+  }
 }
