@@ -16,6 +16,12 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: rgba(10, 38, 64, 1);
+}
+
+
 .first-page {
   background-color: rgba(10, 38, 64, 1);
   height: 615px;

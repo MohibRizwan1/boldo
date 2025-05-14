@@ -20,6 +20,11 @@ body {
   height: 473px;
 }
 
+a {
+  text-decoration: none;
+  color: rgba(10, 38, 64, 1);
+}
+
 header {
   display: flex;
   justify-content: space-between;
