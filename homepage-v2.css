@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(10, 38, 64, 1);
 }
 
 .header-circle {
@@ -41,6 +41,7 @@ header .logo {
   display: flex;
   font-weight: bold;
   height: 24px;
+  margin-left: 80px;
 }
 
 header .logo img {
@@ -849,7 +850,7 @@ header .button-log-in:hover {
 
 /* Mobile (up to 480px or 576px) */
 @media (max-width: 480px) {
-  .logo {
+  header .logo {
     margin-left: 10px;
   }
 
@@ -1051,7 +1052,4 @@ header .button-log-in:hover {
 @media (min-width: 1201px) {
 
   /* Styles for desktops and large screens */
-  .logo {
-    margin-left: 80px;
-  }
 }
